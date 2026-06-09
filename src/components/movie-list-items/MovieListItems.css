@@ -28,3 +28,16 @@
 .list-group-item-input{
     width: 100px;
 }
+
+.list-group-item .fa-star{
+    width: 35px;
+    height: 35px;
+    font-size: 1.5rem;
+    color: #e09f3e;
+    cursor: pointer;
+    transform: translateX(30px);
+}
+
+.list-group-item .favourite .fa-star{
+    color: #e84855;
+}

@@ -1,11 +1,11 @@
 import React from 'react'
 import './MovieListItems.css'
-const MovieListItems = () => {
+const MovieListItems = ({name, viewers, favourite}) => {
   return (
     <div>
-      <li className='list-group-item d-flex justify-content-between align-items-center'>
-        <span className='list-group-item-label'>Empire of Osman</span>
-        <input type='number' className='list-group-item-input' defaultValue="900"/>
+      <li className={`list-group-item d-flex justify-content-between align-items-center ${favourite && 'active'} `}>
+        <span className='list-group-item-label'>{name}</span>
+        <input type='number' className='list-group-item-input' defaultValue={viewers}/>
         <div className='d-flex justify-content-center align-items-center'>
             <button className='btn-cookie btn-sm' type='button'>
             <i className='fas fa-cookie'></i>
