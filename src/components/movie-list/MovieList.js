@@ -5,6 +5,8 @@ const MovieList = () => {
   return (
     <div className='movie-list'>
       <MovieListItems/>
+      <MovieListItems/>
+      <MovieListItems/>
     </div>
   )
 }

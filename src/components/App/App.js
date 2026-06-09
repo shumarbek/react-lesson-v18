@@ -4,6 +4,7 @@ import './App.css'
 import SearchPanel from '../Search-panel/SearchPanel'
 import AppFilter from '../App-filter/AppFilter'
 import MovieList from '../movie-list/MovieList'
+import AppForm from '../app-form/app-form'
 const App = () => {
   return (
     <div className='app font-monospace'>
@@ -14,6 +15,7 @@ const App = () => {
                 <AppFilter/>
                 <div>
                     <MovieList/>
+                    <AppForm />
                 </div>
             </div>
         </div>
